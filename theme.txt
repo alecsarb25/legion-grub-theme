@@ -1,0 +1,30 @@
+title-text: ""
+desktop-image: "background.png"
+desktop-image-scale-method: "stretch"
+desktop-color: "#010b0e"
+
+terminal-left: "0"
+terminal-top: "0"
+terminal-width: "100%"
+terminal-height: "100%"
+terminal-border: "0"
+
++ boot_menu {
+    left = 653
+    top = 449
+    width = 1260
+    height = 432
+
+    item_color = "#001013"
+    selected_item_color = "#001013"
+
+    item_height = 193
+    item_padding = 0
+    item_spacing = 40
+
+    icon_width = 0
+    icon_height = 0
+    scrollbar = false
+
+    selected_item_pixmap_style = "select/selected_*.png"
+}
