@@ -42,6 +42,7 @@ else
   echo 'GRUB_THEME="/boot/grub2/themes/legion/theme.txt"' >> /etc/default/grub
 fi
 
+
 # Match the design: show the menu indefinitely instead of auto-booting.
 if grep -q '^GRUB_TIMEOUT_STYLE=' /etc/default/grub; then
   sed -i 's/^GRUB_TIMEOUT_STYLE=.*/GRUB_TIMEOUT_STYLE=menu/' /etc/default/grub
