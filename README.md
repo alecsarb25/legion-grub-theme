@@ -25,9 +25,8 @@ Custom GRUB2 boot-menu theme created for a **Lenovo Legion Pro 7 16IAX10H** runn
 ## Project files
 
 - [`theme.txt`](./theme.txt) — GRUB2 theme layout and styling
-- [`install-legion-theme.sh`](./install-legion-theme.sh) — Fedora-specific installation script
-- [`restore-previous-theme.sh`](./restore-previous-theme.sh) — theme-directory restore script
-- [`background.png`](./background.png) — background image; `select/selected_*.png` — selection-border assets (still to be uploaded)
+- [`background.png`](./background.png) — background image
+- [`install-legion-theme.sh`](./install-legion-theme.sh) and [`restore-previous-theme.sh`](./restore-previous-theme.sh) — archived scripts from the original local installation; **not ready for reuse**
 
 ## Target hardware
 
@@ -40,7 +39,7 @@ The design is tuned to this display and GRUB setup. Other machines are **not tes
 
 ## Installation and recovery caveats
 
-**Do not run the installation script until all referenced image assets have been uploaded and you have inspected its operations.** These scripts require root access and can affect system boot behavior.
+**Portfolio showcase only — do not run the archived installation script from this repository.** It depends on assets not included in this public copy. The scripts require root access and can affect system boot behavior.
 
 The installer copies files to `/boot/grub2/themes/legion`, modifies `/etc/default/grub` (including graphics mode, theme path, and disabling automatic boot), and runs `grub2-mkconfig -o /boot/grub2/grub.cfg`. It also conditionally removes a particular older Legion font-loader script after backing it up.
 
