@@ -14,14 +14,20 @@ Custom GRUB2 boot-menu theme created for a **Lenovo Legion Pro 7 16IAX10H** runn
 
 ## Preview
 
-Preview images from the original design will be added here once uploaded.
+**Fedora selected**
+
+![Legion GRUB theme with Fedora selected](./preview-fedora-selected.png)
+
+**Windows selected**
+
+![Legion GRUB theme with Windows selected](./preview-windows-selected.png)
 
 ## Project files
 
 - [`theme.txt`](./theme.txt) — GRUB2 theme layout and styling
 - [`install-legion-theme.sh`](./install-legion-theme.sh) — Fedora-specific installation script
 - [`restore-previous-theme.sh`](./restore-previous-theme.sh) — theme-directory restore script
-- `background.png` and `select/selected_*.png` — visual assets (to be uploaded)
+- [`background.png`](./background.png) — background image; `select/selected_*.png` — selection-border assets (still to be uploaded)
 
 ## Target hardware
 
