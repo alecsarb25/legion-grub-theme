@@ -1,6 +1,6 @@
 # Lenovo Legion GRUB2 Theme
 
-**Created by Alec Scott** · [GitHub profile](https://github.com/alecsarb25)
+**Created by Alec Agen** · [GitHub profile](https://github.com/alecsarb25)
 
 Custom GRUB2 boot-menu theme created for a **Lenovo Legion Pro 7 16IAX10H** running a Fedora/Windows dual-boot setup. Designed around the laptop's native **2560 × 1600** display, with custom Fedora and Windows selection graphics.
 
